@@ -6,7 +6,7 @@ class Square:
     """Represent a square."""
 
     def __init__(self, size=0):
-        """ A special method that is called 
+""" A special method that is called 
 when an instance of the class is called"""
 
         if not isinstance(size, int):
