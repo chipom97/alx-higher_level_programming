@@ -37,4 +37,3 @@ class Square:
                 print("#" * self.__size)
 
     pass
-
