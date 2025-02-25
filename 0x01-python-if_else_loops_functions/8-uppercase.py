@@ -8,5 +8,5 @@ def uppercase(str="chipo"):
             new_str += chr(a)
         else:
             new_str += i
-    print(new_str)
+    print("{}".format(new_str))
     return f"{new_str}"
