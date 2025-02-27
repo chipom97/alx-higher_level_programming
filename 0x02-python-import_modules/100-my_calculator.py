@@ -17,8 +17,7 @@ def operator():
         print("{} - {} = {}".format(a, b, sub(a, b)))
         sys.exit(0)
     elif sys.argv[2] == "*":
-        print(sys.argv[2])
-        # print("{} * {} = {}".format(a, b, mul(a, b)))
+        print("{} * {} = {}".format(a, b, mul(a, b)))
         sys.exit(0)
     elif sys.argv[2] == "/":
         print("{} / {} = {}".format(a, b, div(a, b)))
