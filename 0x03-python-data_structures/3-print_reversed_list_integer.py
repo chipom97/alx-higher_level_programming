@@ -4,5 +4,5 @@ def print_reversed_list_integer(my_list=[]):
     if not []:
         for i in my_list[::-1]:
             print("{:d}".format(i))
-    else:
+    elif my_list is None:
         return None
