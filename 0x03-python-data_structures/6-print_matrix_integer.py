@@ -9,6 +9,6 @@ def print_matrix_integer(matrix=[[]]):
         num = row[lst_ind]
         for i in row:
             if i == num:
-                print("{}".format(i))
+                print("{:d}".format(i))
             else:
-                print("{}".format(i), end=" ")
+                print("{:d}".format(i), end=" ")
